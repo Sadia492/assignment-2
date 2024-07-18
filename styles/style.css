@@ -207,3 +207,26 @@ header {
   color: #ffffff80;
 }
 /* ------habit section ends here---- */
+/* ------run section starts here---- */
+.run {
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 18px;
+  background-color: rgb(34, 34, 34);
+  padding: 30px 35px 30px 54px;
+  margin-bottom: 100px;
+}
+.run img {
+  border-radius: 18px;
+}
+.run button {
+  padding: 16px 40px;
+}
+.run p {
+  padding-top: 14px;
+  padding-bottom: 34px;
+}
+.run-image img {
+  width: 100%;
+}
+/* ------run section ends here---- */

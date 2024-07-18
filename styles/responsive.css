@@ -29,6 +29,15 @@
   .habit-card {
     grid-template-columns: 1fr;
   }
+  /* run section */
+  .run {
+    flex-direction: column;
+    gap: 31px;
+    padding-left: 35px;
+  }
+  .run button {
+    width: 100%;
+  }
 }
 /* responsive for medium size devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -51,5 +60,13 @@
   /* habit section */
   .habit-card {
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* run section */
+  .run {
+    width: 90%;
+    padding-left: 35px;
+  }
+  .run button {
+    width: 70%;
   }
 }
