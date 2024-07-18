@@ -80,6 +80,7 @@ header {
     rgb(17, 17, 17),
     rgba(119, 119, 119, 0) 100%
   );
+  margin-bottom: 100px;
 }
 .banner {
   position: relative;
@@ -173,3 +174,36 @@ header {
 }
 
 /* ------header section ends here---- */
+/* ------habit section starts here---- */
+.habit {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.habit-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 58px;
+}
+.habit h1 {
+  margin-bottom: 14px;
+}
+.card img {
+  border-radius: 50%;
+  border: 5px solid #191919;
+}
+.card h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+}
+.card img {
+  width: 100%;
+}
+
+.card p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #ffffff80;
+}
+/* ------habit section ends here---- */
