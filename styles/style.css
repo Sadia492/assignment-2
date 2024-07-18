@@ -230,3 +230,108 @@ header {
   width: 100%;
 }
 /* ------run section ends here---- */
+/* ------training section starts here---- */
+.training {
+  margin-bottom: 100px;
+}
+.row-1 {
+  display: grid;
+  height: 300px;
+  grid-template-columns: 0.4fr 1fr 0.6fr;
+}
+.row-2 {
+  display: grid;
+  grid-template-columns: 0.8fr 0.5fr 0.7fr;
+  height: 300px;
+}
+.green-card {
+  background-image: url("../images/exercise1.jpg");
+  background-size: cover;
+  background-color: rgba(6, 255, 210, 0.5);
+  background-blend-mode: overlay;
+  background-position: center;
+  position: relative;
+}
+.red-card {
+  background-image: url("../images/exercise2.png");
+  background-size: cover;
+  background-color: rgba(255, 0, 0, 0.3);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.black-card {
+  background-image: url("../images/exercise3.png");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-position: center;
+  position: relative;
+}
+.black-card-2 {
+  background-image: url("../images/exercise4.png");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-position: center;
+  position: relative;
+}
+.yellow-card {
+  background-image: url("../images/exercise5.jpg");
+  background-size: cover;
+  background-color: rgba(66, 255, 0, 0.3);
+  background-blend-mode: overlay;
+  background-position: center;
+  position: relative;
+}
+.purple-card {
+  background-image: url("../images/exercise6.jpg");
+  background-size: cover;
+  background-color: rgba(0, 71, 255, 0.3);
+  background-blend-mode: overlay;
+  background-position: center;
+  position: relative;
+}
+.training-description {
+  margin-top: 14px;
+  margin-bottom: 25px;
+}
+.green-card p {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  font-weight: bold;
+}
+.red-card p {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: white;
+}
+.black-card p {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: white;
+}
+.black-card-2 p {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: white;
+}
+.yellow-card p {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: white;
+}
+.purple-card p {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: white;
+}
+
+/* ------training section ends here---- */

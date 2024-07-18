@@ -38,6 +38,22 @@
   .run button {
     width: 100%;
   }
+  /* training section */
+  .purple-card,
+  .black-card {
+    display: none;
+  }
+  .row-1 {
+    grid-template-columns: 1fr 1fr;
+    height: 150px;
+  }
+  .row-2 {
+    grid-template-columns: 0.9fr 1.1fr;
+    height: 150px;
+  }
+  .red-card {
+    /* background-position: top right; */
+  }
 }
 /* responsive for medium size devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -68,5 +84,18 @@
   }
   .run button {
     width: 70%;
+  }
+  /* training section */
+  .training {
+    width: 95%;
+  }
+  .green-card {
+    background-position: center;
+  }
+  .row-1,
+  .row-2 {
+    height: 150px;
+  }
+  .row-2 {
   }
 }
