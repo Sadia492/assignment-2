@@ -63,6 +63,10 @@
   .bmi-calculator {
     width: 100%;
   }
+  /* team section */
+  .team-card-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* responsive for medium size devices */
@@ -120,5 +124,9 @@
 
   .bmi-calculator {
     width: 100%;
+  }
+  /* team section */
+  .team {
+    width: 90%;
   }
 }
