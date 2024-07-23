@@ -488,3 +488,60 @@ td {
   color: white;
 }
 /* ------Team section ends here---- */
+/* ------footer section starts here---- */
+footer {
+  color: white;
+  background-color: #191919;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-items: center; */
+  justify-items: right;
+  padding-top: 66px;
+  padding-bottom: 79px;
+}
+.footer-links {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 1.43rem;
+  text-decoration: none;
+}
+
+footer ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.list-1 h1,
+.list-2 h1 {
+  margin-bottom: 39px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 2rem;
+}
+.footer-content h1 {
+  margin-bottom: 20px;
+  font-size: 4.37rem;
+  font-weight: 800;
+}
+.footer-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  line-height: 24px;
+  font-weight: 400;
+}
+.footer-bottom {
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 24px;
+  font-weight: 400;
+}
+footer hr {
+  width: 80%;
+  margin: 0 auto;
+  opacity: 0.1;
+}
+/* ------footer section ends here---- */

@@ -67,6 +67,15 @@
   .team-card-container {
     grid-template-columns: 1fr;
   }
+  /* footer section */
+  .footer-container {
+    grid-template-columns: 1fr;
+    justify-items: start;
+    gap: 30px;
+  }
+  footer hr {
+    width: 90%;
+  }
 }
 
 /* responsive for medium size devices */
@@ -128,5 +137,14 @@
   /* team section */
   .team {
     width: 90%;
+  }
+  /* footer section */
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    gap: 30px;
+  }
+  .footer-content {
+    grid-column: span 2;
   }
 }
