@@ -51,10 +51,20 @@
     grid-template-columns: 0.9fr 1.1fr;
     height: 150px;
   }
-  .red-card {
-    /* background-position: top right; */
+  /* BMI section */
+  .bmi-calculator-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .bmi-content {
+    width: 95%;
+  }
+
+  .bmi-calculator {
+    width: 100%;
   }
 }
+
 /* responsive for medium size devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /* header section */
@@ -96,6 +106,19 @@
   .row-2 {
     height: 150px;
   }
-  .row-2 {
+  /* BMI section */
+  .bmi-calculator-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .bmi-content {
+    width: 90%;
+  }
+  .bmi-calculator-container {
+    width: 90%;
+  }
+
+  .bmi-calculator {
+    width: 100%;
   }
 }

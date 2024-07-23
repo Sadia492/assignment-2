@@ -335,3 +335,101 @@ header {
 }
 
 /* ------training section ends here---- */
+/* ------BMI section starts here---- */
+.bmi {
+  margin-bottom: 100px;
+}
+.bmi-content {
+  width: 50%;
+  margin: 0 auto;
+}
+.bmi-content p {
+  margin-top: 14px;
+  margin-bottom: 68px;
+}
+
+table {
+  border-collapse: collapse;
+}
+table th {
+  color: white;
+}
+table td {
+  color: #ffffff80;
+}
+td {
+  padding: 15px 40px 18px 15px;
+}
+.bmi-chart .title {
+  font-weight: 500;
+  color: white;
+}
+.bmi-calculator-container {
+  justify-content: c;
+  gap: 167px;
+}
+.bmi h2 {
+  font-size: 1.75;
+  font-weight: 900;
+  color: white;
+}
+.bmi-chart h2 {
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
+.bmi-calculator p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #ffffff80;
+}
+.bmi-calculator h2 {
+  margin-top: 49px;
+}
+
+.bmi-calculator p {
+  margin-top: 14px;
+  margin-bottom: 34px;
+  line-height: 24px;
+}
+.bmi-calculator {
+  width: 50%;
+  padding-bottom: 52px;
+}
+.bmi-calculator input {
+  width: 45%;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px 0px 20px 20px;
+  border: none;
+}
+::placeholder {
+  color: #ffffff80;
+}
+.bmi-calculator select {
+  width: 45%;
+  padding: 20px 0px 20px 20px;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff80;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#height,
+#age {
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+#activity {
+  width: 93%;
+}
+.bmi-calculator button {
+  margin-top: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.bmi-background {
+  width: 100%;
+  background-color: rgb(34, 34, 34);
+}
+
+/* ------BMI section ends here---- */
