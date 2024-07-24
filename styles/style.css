@@ -88,6 +88,7 @@ header {
 }
 .banner-image img {
   width: 100%;
+  object-fit: cover;
 }
 .shape {
   font-family: "Miama", sans-serif;
@@ -100,6 +101,7 @@ header {
   font-weight: 900;
   color: white;
   line-height: 120%;
+  width: 55%;
 }
 .banner-content p {
   font-size: 1rem;
@@ -107,6 +109,7 @@ header {
   color: #ffffff80;
   padding-top: 28px;
   padding-bottom: 28px;
+  width: 55%;
 }
 .join {
   font-size: 1.125rem;
@@ -185,6 +188,11 @@ header {
   gap: 40px;
   margin-top: 58px;
 }
+.habit-description {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .habit h1 {
   margin-bottom: 14px;
 }
@@ -199,12 +207,14 @@ header {
 }
 .card img {
   width: 100%;
+  object-fit: cover;
 }
 
 .card p {
   font-size: 0.875rem;
   font-weight: 400;
   color: #ffffff80;
+  margin-top: 6px;
 }
 /* ------habit section ends here---- */
 /* ------run section starts here---- */
@@ -222,9 +232,15 @@ header {
 .run button {
   padding: 16px 40px;
 }
+.run h1 {
+  font-size: 48px;
+  font-weight: 900;
+  width: 40%;
+}
 .run p {
   padding-top: 14px;
   padding-bottom: 34px;
+  width: 60%;
 }
 .run-image img {
   width: 100%;
@@ -303,33 +319,13 @@ header {
   left: 5%;
   font-weight: bold;
 }
-.red-card p {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  color: white;
-}
-.black-card p {
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
-  color: white;
-}
-.black-card-2 p {
-  position: absolute;
-  top: 5%;
-  right: 5%;
-  color: white;
-}
-.yellow-card p {
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
-  color: white;
-}
+.red-card p,
+.black-card p,
+.black-card-2 p,
+.yellow-card p,
 .purple-card p {
   position: absolute;
-  bottom: 5%;
+  top: 5%;
   left: 5%;
   color: white;
 }
@@ -346,6 +342,7 @@ header {
 .bmi-content p {
   margin-top: 14px;
   margin-bottom: 68px;
+  width: 80%;
 }
 
 table {
@@ -381,6 +378,7 @@ td {
   font-size: 0.875rem;
   font-weight: 400;
   color: #ffffff80;
+  width: 89%;
 }
 .bmi-calculator h2 {
   margin-top: 49px;
@@ -441,6 +439,9 @@ td {
 .team-description {
   margin-top: 14px;
   margin-bottom: 78px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .team {
   margin-bottom: 88px;
@@ -450,6 +451,7 @@ td {
   height: 300px;
   object-fit: cover;
   border-radius: 18px;
+  opacity: 0.8;
 }
 .team-card-container {
   display: grid;
@@ -488,6 +490,72 @@ td {
   color: white;
 }
 /* ------Team section ends here---- */
+/* ------our quality section starts here---- */
+.our-quality {
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.quality-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 50px;
+}
+.quality {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-quality h3 {
+  color: #e6533c;
+  font-size: 16px;
+  font-weight: 600;
+}
+.our-quality h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  margin-top: 8px;
+}
+.quality h4 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: white;
+}
+.quality p {
+  color: #a9a9a9;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.icon {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: #232323;
+  color: #e6533c;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apple {
+  font-size: 30px;
+}
+.dumbell {
+  transform: rotate(140deg);
+}
+.quality:hover .icon {
+  background-color: #e6533c;
+  color: white;
+}
+
+/* ------our quality section ends here---- */
+
 /* ------footer section starts here---- */
 footer {
   color: white;

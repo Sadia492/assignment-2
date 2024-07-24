@@ -1,12 +1,22 @@
-/* responsive for smaller devices */
+/* -----responsive for smaller devices----- */
 @media screen and (max-width: 576px) {
   /* header section */
   .container {
     width: 90%;
   }
+  nav {
+    align-items: center;
+  }
   .banner {
     flex-direction: column;
     gap: 48px;
+  }
+  .banner-content p {
+    width: 70%;
+  }
+  .banner-content h1 {
+    font-size: 2.25rem;
+    width: 70%;
   }
   .menu {
     display: none;
@@ -29,6 +39,12 @@
   .habit-card {
     grid-template-columns: 1fr;
   }
+  .habit h1 {
+    font-size: 2rem;
+  }
+  .habit-description {
+    width: 100%;
+  }
   /* run section */
   .run {
     flex-direction: column;
@@ -37,6 +53,10 @@
   }
   .run button {
     width: 100%;
+  }
+  .run h1,
+  .run p {
+    width: 90%;
   }
   /* training section */
   .purple-card,
@@ -67,6 +87,9 @@
   .team-card-container {
     grid-template-columns: 1fr;
   }
+  .team-description {
+    width: 100%;
+  }
   /* footer section */
   .footer-container {
     grid-template-columns: 1fr;
@@ -76,9 +99,13 @@
   footer hr {
     width: 90%;
   }
+  /* our quality section */
+  .quality-container {
+    grid-template-columns: 1fr;
+  }
 }
 
-/* responsive for medium size devices */
+/*----- responsive for medium size devices----- */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /* header section */
   nav {
@@ -87,6 +114,10 @@
   .banner {
     flex-direction: column;
     gap: 100px;
+  }
+  .banner-content p,
+  .banner-content h1 {
+    width: 90%;
   }
   .free-video {
     top: 47%;
@@ -100,10 +131,21 @@
   .habit-card {
     grid-template-columns: repeat(2, 1fr);
   }
+  .habit-description {
+    width: 80%;
+  }
+
   /* run section */
   .run {
     width: 90%;
     padding-left: 35px;
+  }
+  .run p,
+  .run h1 {
+    width: 80%;
+  }
+  .run-content {
+    width: 60%;
   }
   .run button {
     width: 70%;
@@ -146,5 +188,9 @@
   }
   .footer-content {
     grid-column: span 2;
+  }
+  /* our quality section */
+  .quality-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
