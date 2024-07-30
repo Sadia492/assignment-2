@@ -18,6 +18,9 @@
     font-size: 2.9rem;
     width: 70%;
   }
+  .banner-image img {
+    object-fit: cover;
+  }
   .menu {
     display: none;
   }

@@ -34,6 +34,9 @@ body {
   font-weight: 900;
   color: white;
 }
+img {
+  object-fit: cover;
+}
 .section-description {
   font-size: 0.875rem;
   font-weight: 400;
@@ -199,6 +202,7 @@ header {
 .card img {
   border-radius: 50%;
   border: 5px solid #191919;
+  object-fit: cover;
 }
 .card h5 {
   font-size: 1.125rem;
