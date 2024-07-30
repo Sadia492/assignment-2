@@ -242,8 +242,13 @@ header {
   padding-bottom: 34px;
   width: 60%;
 }
+.run-image {
+  width: 70%;
+}
 .run-image img {
   width: 100%;
+  object-fit: none;
+  object-position: 66% 30%;
 }
 /* ------run section ends here---- */
 /* ------training section starts here---- */
